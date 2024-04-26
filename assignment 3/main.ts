@@ -1,12 +1,22 @@
-//storing the famous quote and its author
+//storing a person name in a variable 
 
-let quote:string = "The only thing we have to fear is fear itself"
+let personName:string = "Huzaifa Kashif"
 
-let author: string = "Franklin D. Roosevelt";
+//printing a person name in lowercase
 
-//printing the message 
+console.log("Lowercase:", personName.toLowercase());
 
-console.log(`"${quote}" - ${author}`);
+//printing a person name in uppercase
+
+console.log("uppercase:", personName.toUpperCase());
+
+//printing a person name in titlecase
+
+console.log("Titlecase:", personName.toTitlecase());
+
+
+
+
 
 
 
